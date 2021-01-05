@@ -1,0 +1,65 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+.first-section img{
+    width: 100%;
+}
+.first-section h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.first-section p{
+    margin-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+.second-section img{
+    width: 100%;
+}
+.download{
+    background-image: url(images/download.png);
+    background-position: left;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+section{
+    float: left;
+}
+.project-section{
+    background-color: #F8F9FC;
+    width: 100%;
+    height: 800px;
+}
+.project-section h1{
+    text-align: center;
+    font-weight: 700;
+}
+.project-box{
+     box-shadow: 10px 20px 40px gray;
+     border-radius: 5px;
+     float: left;
+     width: 28%;
+     margin: 40px 20px;
+     height: 450px;
+     padding: 10px;
+}
+.project-box img{
+    width: 100%;
+}
