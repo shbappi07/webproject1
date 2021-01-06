@@ -45,7 +45,7 @@ section{
 .project-section{
     background-color: #F8F9FC;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 .project-section h1{
     text-align: center;
@@ -62,4 +62,53 @@ section{
 }
 .project-box img{
     width: 100%;
+}
+.exprience-area{
+    height: 480px;
+}
+.exprience-area h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.exprience-box{
+    height: 200px;
+    
+}
+.exprience-box p{
+    padding: 10px;
+}
+#web-dev-gradiant{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#web-app-gradiant{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+#product-gradiant{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, yellow,tomato);
+    border-image-slice: 1;
+}
+.inquery-section img{
+    width: 60%;
+}
+.inquery-section{
+    text-align: center;
+    position: relative;
+}
+.inquery-text{
+    position: absolute;
+    top: 46px;
+    left: 339px;
+    color: white;
+    font-size: 20px;
+}
+.chatbtn{
+    position: absolute;
+    top: 50px;
+    right: 330px;
 }
